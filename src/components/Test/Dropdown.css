@@ -1,0 +1,20 @@
+.dropdown {
+  position: relative;
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  text-align: center;
+  padding: 6px;
+}
+.button {
+  margin-left: 10px;
+}
+.menu {
+  display: block;
+  position: absolute;
+  top: 102%;
+  left: 0;
+  width: 100%;
+  background-color: bisque;
+}
