@@ -54,6 +54,7 @@ class App extends Component {
     return (
       <>
         <FormTest onFormSubmit={this.formDataHandler} />
+        <p>===================</p>
         <TodoCounter todos={visibleTodos} />
         <p>===================</p>
         <Filter value={filter} onChange={this.handleFilter} />
