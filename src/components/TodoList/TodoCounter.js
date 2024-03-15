@@ -4,12 +4,8 @@ export function TodoCounter({ todos }) {
       <span>To do: {todos.length}</span>
       <span>
         In progress:{" "}
-        {todos.reduce(
-          (acc, todo) => (todo.status === "completed" ? acc : acc + 1),
-          0
-        )}
+        {todos.reduce((acc, todo) => (todo.status ? acc : acc + 1), 0)}
       </span>
     </div>
   );
 }
-// export default TodoCounter;
